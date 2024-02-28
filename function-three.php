@@ -21,6 +21,10 @@ $global_prices = calculate_prices($lit_price, $rates);
 ?>
 <h3>Funkcija, grąžina kelias reikšmes</h3>
 <h3>
+    Valiutų kursai: <br><br>
+    Svaras: <?= $rates['uk'] ?> <br>
+    Rublis: <?= $rates['by'] ?> <br>
+    Jena: <?= $rates['jp'] ?> <br><br>
     Šokolado kaina eurais: <?= $lit_price ?> € <br><br>
     Kaina svarais: <?= $global_prices['svaras'] ?> £<br>
     Kaina rubliais: <?= $global_prices['rublis'] ?> ₽<br>
