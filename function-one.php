@@ -8,7 +8,7 @@ function calculate_total($price, $quantity)
     return $total;
 }
  ?>
-<h1>Sandėlio informacija</h1>
+<h1>Sandėlio informacija (function)</h1>
 <table>
   <tr>
     <th>Prekė</th>

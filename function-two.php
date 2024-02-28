@@ -12,7 +12,7 @@ function calculate_running_total($price, $quantity)
     return $running_total;
 }
  ?>
-<h1>Sandėlio informacija</h1>
+<h1>Sandėlio informacija (function)</h1>
 <table>
  <tr><th>Prekė</th><th>Kaina</th><th>Kiekis</th>
  <th>Kaina iš viso</th></tr>
