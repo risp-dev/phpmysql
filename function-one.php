@@ -28,6 +28,20 @@ function calculate_total($price, $quantity)
   </tr>
 </table>
 
+<?php
+$stock = 15;
+
+function stock_message($stock){
+  if($stock >= 10) {
+    return 'More than 10 available';
+  }if($stock > 0 && $stock < 10){
+    return '10 or less available';
+  }
+  return 'Out of stock';
+}
+
+?>
+<h3>3 return sąlygoje, pagal prekių kiekį sandėlyje: <?= stock_message($stock) ?></h3>
 
 <?php 
 include __DIR__ . '/includes/footer.html.php';

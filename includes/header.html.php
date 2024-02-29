@@ -14,4 +14,5 @@
  <a href="function-one.php">F-1</a> |
  <a href="function-two.php">F-2</a> |
  <a href="function-three.php">F-3</a> |
+ <a href="function-four.php">F-4</a> |
  </nav>
