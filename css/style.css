@@ -45,6 +45,15 @@ table {
     width: 300px;
     border-collapse: collapse;
 }
+.credit {
+    color: rgb(42, 15, 192); 
+}
+.overdrawn {
+    color: #f00; 
+    font-weight: bold; 
+}
+
+
 
 th, td {
     padding: 8px;

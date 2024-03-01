@@ -15,5 +15,5 @@
  <a href="function-two.php">F-2</a> |
  <a href="function-three.php">F-3</a> |
  <a href="function-four.php">F-4</a> |
- <a href="class-account.php">C-1</a> |
+ <a href="class-example.php">C-1</a> |
  </nav>
