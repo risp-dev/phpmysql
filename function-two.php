@@ -15,7 +15,7 @@ function calculate_running_total($price, $quantity)
 <h1>Sandėlio informacija (function)</h1>
 <table>
  <tr><th>Prekė</th><th>Kaina</th><th>Kiekis</th>
- <th>Kaina iš viso</th></tr>
+ <th>Kaina iš viso<br>Kai PVM: <?= $tax_rate ?></th></tr>
  <tr><td>Mėtinės pastilės:</td><td>$2</td><td>5</td>
  <td>$<?= calculate_running_total(2, 5); ?></td></tr>
  <tr><td>Plombatraukiniai irisai:</td><td>$3</td><td>5</td>
