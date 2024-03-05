@@ -8,7 +8,7 @@
  <h1>Saldi parduotuvė</h1>
  <nav>
  <a href="index.php">Pradžia</a> |
- <a href="candy.php">Saldainiai</a> |
+ <a href="numbers.php">Numbers</a> |
  <a href="symbols.php">Simboliai</a> |
  <a href="reg-ex-functions.php">Regular expression functions</a> |
  <a href="function-one.php">F-1</a> |
