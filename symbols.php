@@ -1,11 +1,12 @@
 <?php
 include __DIR__ . '/includes/header.html.php';
 $text = 'Home sweet home';
+$textTwo = '/images/upload/';
 ?>
 
 <table>
     <tr>
-    <td><h3>Tekstas: <?= $text ?></h3></td>
+    <td><h3>Table for text:<br> <?= $text ?></h3></td>
 </tr>
 <tr>
     <td>Lowercase: <?= strtolower($text) ?></td>
@@ -19,6 +20,9 @@ $text = 'Home sweet home';
 <tr>
 <tr>
     <td>Character count: <?= strlen($text) ?></td>
+</tr>
+<tr>
+    <td>Word count: <?= str_word_count($text) ?></td>
 </tr>
     <td>First match (case-sensitive): <?= strpos($text, 'ho') ?></td>
 </tr>
@@ -40,8 +44,30 @@ $text = 'Home sweet home';
 <tr>
     <td>Text between two positions: <?= substr($text, 5, 5) ?></td>
 </tr>
-    
-
+</table>
+<br>
+<table>
+    <tr>
+        <td><h3>Table for textTwo:<br> <?= $textTwo ?></h3></td>
+    </tr>
+    <tr>
+        <td>Remove '/' from both ends: <?= trim($textTwo, '/') ?></td>
+    </tr>
+    <tr>
+        <td>Remove '/' from the left: <?= ltrim($textTwo, '/') ?></td>
+    </tr>
+    <tr>
+        <td>Remove '/' from the right: <?= rtrim($textTwo, '/') ?></td>
+    </tr>
+    <tr>
+        <td>Replace 'images' with 'img': <?= str_replace('images', 'img', $textTwo) ?></td>
+    </tr>
+    <tr>
+        <td>Replace 'IMAGES' with 'img' (case insensitive): <?= str_ireplace('IMAGES', 'img', $textTwo) ?></td>
+    </tr>
+    <tr>
+        <td>Repeat the string 3 times: <?= str_repeat($textTwo . ' - ', 3) ?></td>
+    </tr>
 </table>
 <?php 
 include __DIR__ . '/includes/footer.html.php';
