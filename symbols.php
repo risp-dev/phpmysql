@@ -2,19 +2,10 @@
 include __DIR__ . '/includes/header.html.php';
 $text = 'Home sweet home';
 ?>
-
+<h1>Symbols</h1>
 <table>
     <tr>
-    <td><h3>Tekstas: <?= $text ?></h3></td>
-</tr>
-<tr>
-    <td>Lowercase: <?= strtolower($text) ?></td>
-</tr>
-<tr>
-    <td>Uppercase: <?= strtoupper($text) ?></td>
-</tr>
-<tr>
-    <td>Uppercase first letter: <?= ucwords($text) ?></td>
+    <td>Tekstas: <?= $text ?></td>
 </tr>
 <tr>
 <tr>
