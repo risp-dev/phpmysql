@@ -5,9 +5,21 @@ $text = 'Home sweet home';
 
 <table>
     <tr>
-    <td>Tekstas: <?= $text ?></td>
+    <td><h3>Tekstas: <?= $text ?></h3></td>
 </tr>
 <tr>
+    <td>Lowercase: <?= strtolower($text) ?></td>
+</tr>
+<tr>
+    <td>Uppercase: <?= strtoupper($text) ?></td>
+</tr>
+<tr>
+    <td>Uppercase first letter: <?= ucwords($text) ?></td>
+</tr>
+<tr>
+<tr>
+    <td>Character count: <?= strlen($text) ?></td>
+</tr>
     <td>First match (case-sensitive): <?= strpos($text, 'ho') ?></td>
 </tr>
 <tr>
