@@ -1,11 +1,14 @@
+<?php 
+include __DIR__ . '/settings.php';
+?>
 <!DOCTYPE html>
 <html>
  <head>
- <title>Saldi parduotuvė</title>
+ <title><?= SITE_NAME ?></title>
  <link rel="stylesheet" href="css/style.css" />
  </head>
  <body>
- <h1>Sweet sweet super sweet</h1>
+ <h1><?= SITE_NAME ?></h1>
  <nav>
  <a href="index.php">Array</a> |
  <a href="arrayTwo.php">Array 2</a> |
