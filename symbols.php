@@ -2,6 +2,7 @@
 include __DIR__ . '/includes/header.html.php';
 $text = 'Home sweet home';
 $textTwo = '/images/upload/';
+$textThree = 'Total: €666';
 ?>
 
 <table>
@@ -69,5 +70,25 @@ $textTwo = '/images/upload/';
         <td>Repeat the string 3 times: <?= str_repeat($textTwo . ' - ', 3) ?></td>
     </tr>
 </table>
+<br>
+<table>
+    <tr>
+        <td><h3>Table for textThree:<br> <?= $textThree ?></h3></td>
+    </tr>
+    <tr>
+        <td>Character count using <code>mb_strlen()</code>: <?= mb_strlen($textThree) ?></td>
+    </tr>
+    <tr>
+        <td>Character count using <code>strlen()</code>: <?= strlen($textThree) ?></td>
+    </tr>
+    <tr>
+        <td>First match of '666' using <code>stropos()</code>: <?= strpos($textThree, '666') ?></td>
+    </tr>
+    <tr>
+        <td>First match of '666' using <code>mb_stropos()</code>: <?= mb_strpos($textThree, '666') ?></td>
+    </tr>
+</table>
+<br>
+
 <?php 
 include __DIR__ . '/includes/footer.html.php';
