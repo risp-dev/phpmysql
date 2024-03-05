@@ -7,7 +7,10 @@
  <body>
  <h1>Saldi parduotuvė</h1>
  <nav>
- <a href="index.php">Pradžia</a> |
+ <a href="index.php">Array</a> |
+ <a href="arrayTwo.php">Array 2</a> |
+ <a href="arrayThree.php">Array 3</a> |
+ <a href="arrayFour">Array 4</a> |
  <a href="numbers.php">Numbers</a> |
  <a href="symbols.php">Simboliai</a> |
  <a href="reg-ex-functions.php">Regular expression functions</a> |
