@@ -7,7 +7,7 @@ $accounts =
 [new Account(112332555, 'Checking', -20),
 new Account(444111777, 'Savings', 380),];
 
-$customer = new Customer('Jonhny', 'English', 'verystongpassword', $accounts);
+$customer = new Customer('Jonny', 'English', 'verystongpassword', $accounts);
 
 include __DIR__ . '/includes/header.html.php';
 ?>
