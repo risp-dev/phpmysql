@@ -10,7 +10,7 @@
  <a href="index.php">Pradžia</a> |
  <a href="candy.php">Saldainiai</a> |
  <a href="symbols.php">Simboliai</a> |
- <a href="contact.php">Susisiekite</a> |
+ <a href="reg-ex-functions.php">Regular expression functions</a> |
  <a href="function-one.php">F-1</a> |
  <a href="function-two.php">F-2</a> |
  <a href="function-three.php">F-3</a> |
