@@ -1,7 +1,7 @@
 <?php
 
 include __DIR__ . '/includes/header.html.php';
-include __DIR__ . '/includes/settings.php';
+//include __DIR__ . '/includes/settings.php';
 
 ?>
 <table>
@@ -12,7 +12,7 @@ include __DIR__ . '/includes/settings.php';
         <td>Sitename: <?= SITE_NAME ?></td>
     </tr>
     <tr>
-        <td>Sitename: <?= ADMIN_EMAIL ?></td>
+        <td>Mail: <?= ADMIN_EMAIL ?></td>
     </tr>
 </table>
 
