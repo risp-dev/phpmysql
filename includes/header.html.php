@@ -40,4 +40,14 @@ include __DIR__ . '/settings.php';
             <a href="function-four.php">F-4</a>
         </div>
     </div>
+
+    <div class="dropdown">
+        <a href="#" class="dropbtn">Validate</a>
+        <div class="dropdown-content">
+            <a href="password-check.php">Password check</a>
+            <a href="validate-option.php">Validate option</a>
+            
+        </div>
+    </div>
+
 </nav>
