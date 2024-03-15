@@ -12,6 +12,24 @@ body {
     color: #817979;
     padding-bottom: 100px; /* Adjust according to the height of the footer */
     position: relative; /* Make the body a positioning context for absolutely positioned elements */
+    min-height: 100vh; /* Ensure body takes up at least the full viewport height */
+    margin: 0; /* Remove default margin */
+    display: flex;
+    flex-direction: column;
+}
+
+.centered-box-container {
+    display: flex;
+    justify-content: center;
+}
+
+.centered-box {
+    width: 200px;
+    height: 200px;
+    background-color: #f0f0f0;
+    border: 2px solid #333;
+    text-align: center;
+    margin-top: 20px; /* Changed to 20px */
 }
 
 /* Header styles */
