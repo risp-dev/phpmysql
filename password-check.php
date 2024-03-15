@@ -23,12 +23,15 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
     $message = $valid ? 'Password ir valid.' : 'Password not strong enaugh';
 }
 ?>
-<?= $message ?>
-<form action="password-check.php" method="post">
-    Password: <input type="password" name="password">
-    <input type="submit" value="Save">
-</form>
-
+ <div class="centered-box-container">
+        <div class="centered-box">
+            <?= $message ?>
+            <form action="password-check.php" method="post">
+                Password: <input type="password" name="password">
+                <input type="submit" value="Save">
+            </form>
+        </div>
+    </div>
 <?php 
 
 include __DIR__ . '/includes/footer.html.php';
