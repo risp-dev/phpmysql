@@ -47,6 +47,7 @@ include __DIR__ . '/settings.php';
         <div class="dropdown-content">
             <a href="password-check.php">Password check</a>
             <a href="validate-option.php">Validate option</a>
+            <a href="check-box.php">Check box</a>
             
         </div>
     </div>
