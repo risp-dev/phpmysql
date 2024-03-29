@@ -18,6 +18,12 @@ body {
     flex-direction: column;
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 .centered-box-container {
     display: flex;
     justify-content: center;

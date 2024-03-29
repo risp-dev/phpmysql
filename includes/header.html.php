@@ -8,6 +8,7 @@ include __DIR__ . '/settings.php';
  <link rel="stylesheet" href="css/style.css" />
  </head>
  <body>
+    <img src="/img/best-logo-ever.png" width="367" height="49" class="center">
  <h1><?= SITE_NAME ?></h1>
  <nav>
     <div class="dropdown">
